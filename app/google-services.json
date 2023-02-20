@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659215167922",
+    "project_id": "uberdb-1bb86",
+    "storage_bucket": "uberdb-1bb86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659215167922:android:80d17d02fedb75d3beb4ab",
+        "android_client_info": {
+          "package_name": "com.dvls.ubercopy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659215167922-n3oev0dvc7crn4fhl1qhdu2bgeb3gp87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFB_tZLYsaXVt5Wmtjty3DVj51i-lCM7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659215167922-n3oev0dvc7crn4fhl1qhdu2bgeb3gp87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

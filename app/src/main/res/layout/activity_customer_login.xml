@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CustomerLoginActivity"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:autofillHints="emailAddress"
+            android:layout_margin="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:id="@+id/driverEmail"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
+    <EditText
+            android:autofillHints="password"
+            android:layout_margin="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:id="@+id/driverPassword"
+            android:inputType="textPassword"
+            tools:ignore="LabelFor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <Button
+                android:layout_margin="50dp"
+                android:layout_gravity="center"
+                android:text="@string/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/driverLogin"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                android:layout_margin="50dp"
+                android:layout_gravity="center"
+                android:text="@string/register"
+                android:id="@+id/driverRegistration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
